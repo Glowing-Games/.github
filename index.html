@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="3;url=https://glowing-games.github.io/">
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      background: #181b20;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .redirect-box {
+      background: #23272f;
+      padding: 2rem 3rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    .redirect-box a {
+      color: #ff4257;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .spinner {
+      margin: 24px auto 0;
+      width: 48px;
+      height: 48px;
+      border: 5px solid #ff4257;
+      border-top: 5px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="redirect-box">
+    <h1>Redirecting...</h1>
+    <p>You are being redirected to <a href="https://glowing-games.github.io/">glowing-games.github.io</a></p>
+    <div class="spinner"></div>
+    <p>If you are not redirected in a few seconds, <a href="https://glowing-games.github.io/">click here</a>.</p>
+  </div>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://glowing-games.github.io/";
+    }, 3000);
+  </script>
+</body>
+</html>
