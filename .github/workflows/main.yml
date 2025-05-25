@@ -43,4 +43,4 @@ jobs:
           title: Monthly contributor report
           token: ${{ secrets.GITHUB_TOKEN }}
           content-filepath: ./contributors.md
-          assignees: <YOUR_GITHUB_HANDLE_HERE>
+          assignees: glowingjellyfishstudio
